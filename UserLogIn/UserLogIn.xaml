@@ -1,0 +1,19 @@
+﻿<Window x:Class="ShopManagementSystem.UserLogIn.UserLogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShopManagementSystem.UserLogIn"
+        mc:Ignorable="d"
+        Title="User Login" Height="375" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="loginbtn" Content="Login" HorizontalAlignment="Left" Margin="269,234,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" FontSize="16" Background="#FF1CA842" Click="loginbtn_Click"/>
+        <Button x:Name="exitbtn" Content="Exit" HorizontalAlignment="Left" Margin="431,234,0,0" VerticalAlignment="Top" Width="75" FontSize="16" FontWeight="Bold" Background="#FF1CA842" Click="exitbtn_Click"/>
+        <Label Content="User ID" HorizontalAlignment="Left" Margin="78,74,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,0.077" FontWeight="Bold" FontSize="18" Foreground="#FF1CA842"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="78,148,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="#FF1CA842"/>
+        <TextBox x:Name="idtxtbox" HorizontalAlignment="Left" Height="33" Margin="269,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="24" BorderBrush="#FF1CA842"/>
+        <TextBox x:Name="passtxtbox" HorizontalAlignment="Left" Height="33" Margin="269,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="24" BorderBrush="#FF1CA842"/>
+        <Label Content="Verify Yourself" HorizontalAlignment="Left" Margin="165,-7,0,0" VerticalAlignment="Top" FontSize="36" Foreground="#FF1CA842" Height="64" Width="271" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
